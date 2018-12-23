@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Mixer
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - 8a61a8fc6f6fa9e4b9b32d496ea39130
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 8a61a8fc6f6fa9e4b9b32d496ea39130
+  m_Children: []
+  m_Volume: d3dd3ed22eb7f594b865954d0f7e8eb3
+  m_Pitch: 460c5de3ed09eae49aae373e1deb5685
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 200efb615281ede44974837f02c9e83f
+  m_EffectName: Attenuation
+  m_MixLevel: 12bddb598e130594ca85cc301df4160c
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 320bf3c767531644a8287bfc37be16c5
+  m_FloatValues:
+    4c94cae0b88ef3b469c75848778e631b: 2
+  m_TransitionOverrides: {}
+--- !u!244 &244436189813321678
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: e4563823dee16e944add036b16a8559f
+  m_EffectName: Duck Volume
+  m_MixLevel: 6d27f9b15eda5da4eb962f66dc884bb4
+  m_Parameters:
+  - m_ParameterName: Threshold
+    m_GUID: abe48e806b95a6f41839be8da3d41ded
+  - m_ParameterName: Ratio
+    m_GUID: 1bb1afe55ad01904b96fc7cccfa23fd3
+  - m_ParameterName: Attack Time
+    m_GUID: 6079fb43ef0ffde429aa2ff7650449aa
+  - m_ParameterName: Release Time
+    m_GUID: 392842642906f904fb7bbd37ac3bcc3a
+  - m_ParameterName: Make-up Gain
+    m_GUID: 59a7553dd29b42b4c9964f96d0841444
+  - m_ParameterName: Knee
+    m_GUID: bb16cdb3baee6f340916a65c3188cac9
+  - m_ParameterName: Sidechain Mix
+    m_GUID: 7878dc3412cdf194c8e46eeaeaa31ffc
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0

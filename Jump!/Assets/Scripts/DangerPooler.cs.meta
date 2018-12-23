@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0d92d845009457f4ab3eb629e93b880b
+timeCreated: 1500653571
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_barnaclePrefab: {fileID: 1552464031024504, guid: d67822f36e2650c40abd7c893239a48a,
+      type: 2}
+  - m_halfSawPrefab: {fileID: 1382973793579932, guid: 3f9e93070e90824439b24f8203aa8967,
+      type: 2}
+  - m_sawPrefab: {fileID: 1555533112776828, guid: 623e8b69b76175c40bda7f5390ae7b0e,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

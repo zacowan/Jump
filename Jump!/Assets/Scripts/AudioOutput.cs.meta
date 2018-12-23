@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 51a3c5a1d3752d84cbd2f5e2efa18239
+timeCreated: 1501625784
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_gameMusic: {fileID: 8300000, guid: 08835d29510520b499e3bb717c1ec02f, type: 3}
+  - m_menuMusic: {instanceID: 0}
+  - m_jumpSound: {instanceID: 0}
+  - m_deathSound: {instanceID: 0}
+  - m_tapSound: {fileID: 8300000, guid: c8ec02356437a2f44b8922664f657b42, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

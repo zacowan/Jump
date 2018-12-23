@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 024920de51db43846953ece1f93fc8e3
+timeCreated: 1500653616
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_coinPrefab: {fileID: 1339687996248874, guid: 90e7eca69ab98b94aa3133b26c48e70c,
+      type: 2}
+  - m_gemPrefab: {fileID: 1376613608207728, guid: 903239900ea8a6f4cbc8d128969315be,
+      type: 2}
+  - m_keyPrefab: {fileID: 1018957105707748, guid: b023bf85039fe0d4cb45839b64a6c842,
+      type: 2}
+  - m_starPrefab: {fileID: 1903401882432752, guid: c5bd7b9893a28fb4ca4ea299194711dc,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
